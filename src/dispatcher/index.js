@@ -1,1 +1,7 @@
-export { default } from './dispatcher';
+import { getPayload, getAction, dispatch } from './dispatcher';
+
+export {
+  getPayload,
+  getAction,
+  dispatch
+}

@@ -1,5 +1,5 @@
-import { Observable } from '@reactivex/rxjs'
-import { getAction } from 'dispatcher'
+import { Observable } from 'rxjs';
+import { getAction } from '../dispatcher';
 
 const logger =
   getAction()
